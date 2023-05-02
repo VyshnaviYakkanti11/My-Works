@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function OnMouseIn(elem) {
+            elem.style.border = "2px solid blue";
+        }
+
+        function OnMouseOut(elem) {
+            elem.style.border = "2px dotted red";
+        }
+    </script>
+</head>
+
+<body>
+    <div style="background-color:#d0f0a0; width:200px" onmouseover="
+        OnMouseIn(this)" onmouseout="OnMouseOut(this)">
+        Move your mouse pointer into and out of this element!
+    </div>
+
+    </div>
+</body>
+
+</html>
